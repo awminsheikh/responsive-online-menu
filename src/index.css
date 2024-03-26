@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .flex-center {
+        @apply flex flex-row items-center justify-center;
+    }
+
+    .flex-center-col {
+        @apply flex flex-col items-center justify-center;
+    }
+    
+    .flex-between {
+        @apply flex items-center justify-between;
+    }
+
+    .flex-between-col {
+        @apply flex items-center justify-between flex-col;
+    }
+
+    .flex-around {
+        @apply flex flex-row justify-around items-center;
+    }
+
+    .flex-around-col {
+        @apply flex flex-col justify-around items-center;
+    }
+}

@@ -6,7 +6,7 @@ const MenuPage = () => {
   useEffect(() => {
     const handleResize = () => {
       const widthSize = window.innerWidth;
-      setExpande(widthSize >= 425);
+      setExpande(widthSize >= 768);
     };
 
     handleResize(); // Initial check for screen width
